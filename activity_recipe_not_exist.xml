@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_recipe_not_exist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/frontbg2"
+    tools:context="com.example.aasia.sahachaari.recipe_not_exist">
+
+    <ScrollView
+        android:id="@+id/fontArtCategories"
+        android:layout_width="match_parent"
+        android:layout_height="494dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#8555"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/oops"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_margin="10dp"
+                android:text="Oops! We couldn't find a match.."
+                android:textColor="#FDFDFD"
+                android:textSize="30dp"
+                android:layout_gravity="left"/>
+            <TextView
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_margin="10dp"
+                android:text="Maybe you can try these:"
+                android:textColor="#FDFDFD"
+                android:textSize="25dp"
+                android:layout_gravity="left"/>
+            <TextView
+                android:id="@+id/gobiLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_margin="10dp"
+                android:text="Gobi Manchurian"
+                android:textColor="#FDFDFD"
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/mbLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_margin="10dp"
+                android:text="Mutton Biryani"
+                android:textColor="#FDFDFD"
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/achaariLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_margin="10dp"
+                android:text="Achaari Chicken"
+                android:textColor="#FDFDFD"
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/gingerLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_margin="10dp"
+                android:text="Ginger Chicken"
+                android:textColor="#FDFDFD"
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/vbLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_margin="10dp"
+                android:text="Vegetable Biryani"
+                android:textColor="#FDFDFD"
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

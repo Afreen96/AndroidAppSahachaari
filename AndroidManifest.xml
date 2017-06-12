@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aasia.sahachaari">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".paneer_intent" />
+        <activity android:name=".gobi_intent" />
+        <activity android:name=".achaariChicken_intent" />
+        <activity android:name=".muttonBiryani_intent" />
+        <activity android:name=".rajmaMasala" />
+        <activity android:name=".recipe_not_exist" />
+        <activity android:name=".mixed_veg_soup" />
+        <activity android:name=".ginger_chicken" />
+        <activity android:name=".palak_paneer" />
+        <activity android:name=".chicken_sixty" />
+        <activity android:name=".vegbiryani"></activity>
+    </application>
+
+</manifest>
